@@ -3,20 +3,8 @@ package rectangle;
 public class Rectangle {
     private Double width;
     private Double height;
-
-    public Double getWidth() {
-        return width;
-    }
-
-    public Double getHeight() {
-        return height;
-    }
-
-    public void setHeight(Double height) {
+    public Rectangle(Double width, Double height) {
         this.height = height;
-    }
-
-    public void setWidth(Double width) {
         this.width = width;
     }
 
